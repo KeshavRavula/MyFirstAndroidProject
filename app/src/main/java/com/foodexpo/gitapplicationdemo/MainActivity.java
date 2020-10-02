@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void btnFN(View view)
+    {
+        Intent intent=new Intent(this,MyBasicActivity.class);
+        startActivity(intent);
+    }
+
     public void onClick(View view){
         Intent intent = new Intent(this,MainActivity2.class);
         startActivity(intent);
